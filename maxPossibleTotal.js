@@ -2,14 +2,21 @@
 // made by summing just 5 of the 10 numbers.
 
 const maxTotal = function(arr) {
+     const maxNum = arr.sort(arr = (a,b) => b-a)
+     console.log(maxNum);
 
+     sum = 0;
+       for (let i = 0; i < 5; i++) {
+        sum += maxNum[i]
+     }
+     console.log(sum);
 }
 
-// maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1]) 
+maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1]) 
 //➞ 43
 
-//maxTotal([0, 0, 0, 0, 0, 0, 0, 0, 0, 100]) 
+maxTotal([0, 0, 0, 0, 0, 0, 0, 0, 0, 100]) 
 //➞ 100
 
-//maxTotal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) 
+maxTotal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) 
 //➞ 40
