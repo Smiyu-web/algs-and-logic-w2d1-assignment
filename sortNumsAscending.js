@@ -12,6 +12,14 @@ const sortNumsAscending = function(arr) {
     }
 }
 
+// const sortNumsAscending = function(arr) {
+//     if (arr === null || arr.length < 0) {
+//         console.log([]);
+//     } else {
+//         console.log(arr.sort((a, b) => a - b));
+//     }
+// }
+
 sortNumsAscending([1, 2, 10, 50, 5]) 
 //➞ [1, 2, 5, 10, 50]
 

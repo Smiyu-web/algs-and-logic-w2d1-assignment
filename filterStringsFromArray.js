@@ -4,6 +4,8 @@
 
 
 const filterArray = function(arr) {
+    // const newArr = arr.filter(arr => typeof arr === 'number')
+    // console.log(newArr);
     console.log(arr.filter(arr => typeof arr === "number"));
     };
 

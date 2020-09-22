@@ -8,6 +8,12 @@ const sortByLength = function(arr) {
     console.log(arr);
   }
 
+// const sortByLength = function(arr) {
+//   const newArr = arr.sort((a,b) => a.length - b.length)
+//       console.log(newArr);
+  
+// }
+
 
 sortByLength(["a", "ccc", "dddd", "bb"])
 //➞ ["a", "bb", "ccc", "dddd"]

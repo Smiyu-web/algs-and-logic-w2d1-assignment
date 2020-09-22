@@ -3,7 +3,6 @@
 
 const maxTotal = function(arr) {
      const maxNum = arr.sort(arr = (a,b) => b-a)
-     console.log(maxNum);
 
      sum = 0;
        for (let i = 0; i < 5; i++) {
@@ -11,6 +10,16 @@ const maxTotal = function(arr) {
      }
      console.log(sum);
 }
+
+// const maxTotal = function(arr) {
+//      const newArr = arr.sort((a, b) => b - a)
+//      let sum = 0;
+//      for (let i = 0; i < 5; i++) {
+//          sum += arr[i]
+//      }
+//      console.log(sum);
+ 
+ }
 
 maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1]) 
 //➞ 43
